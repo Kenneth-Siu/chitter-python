@@ -1,0 +1,14 @@
+In the distant future, it’s the year 2022. The world as we know it has collapsed. Twitter’s servers are down. As obedient drones in the rat race, we’re going to fill the void left behind with a new social media site and call it... Chitter.
+
+The project owner has provided you with the following requirements. Just like with the parking garage exercise, please design a class structure, and then implement it in Python. (If you’re feeling overwhelmed, try dealing with each requirement one at a time. We can always change or delete things later if it turns out there’s a better way!)
+
+
+* In our site, each user is called a rat. Rats each have a chitter handle.
+* Rats can make squeaks. Each squeak contains a message.
+* Rats can also make direct messages, or DMs. These are a type of squeak that has to be directed at another rat.
+* Rats can also make replies. These are a type of squeak that has to be directed at another squeak.
+* Rats can form “packs” (they are effectively groups of rats). The rat who created the pack is the Rat King/Queen/Monarch.
+* Packs have a maximum number of rats. This maximum number is chosen when creating the pack, but can also be changed by the Rat Monarch.
+* You should be able to see how many spaces are available in a pack on the pack’s profile page.
+* You should be able to see a list of the squeaks of all the members of a pack on the pack’s profile page. This should not include DMs or replies - only basic squeaks!
+* You should able to see a list of a rat’s squeaks/DMs/replies on their profile page. Which ones to show is up to the user to choose.
